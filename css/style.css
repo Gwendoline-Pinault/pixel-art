@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Bandeau de sélection de la grille */
+
+.configuration {
+  background-color: rgb(71, 86, 168);
+  height: 20vh;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  height: 45px;
+  width: 180px;
+  text-align: center;
+  margin-right: 2px;
+}
+
+button {
+  border: none;
+  background-color: rgb(187, 130, 240);
+  color: white;
+  height: 47px;
+  width: 150px;
+  border-radius: 0 10px 10px 0;
+  font-weight: bold;
+}
+
+/* Zone de jeu */
+
+.grid-container {
+  background-color: rgb(120, 93, 219);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+#pixel-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.case {
+  background-color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  border: 1px rgba(0, 0, 0, 0.6) solid;
+}
+
+.line {
+  display: flex;
+}
+
+#grid {
+  border-radius: 10px 0 0 10px;
+}
+
+input, button {
+  font-size: 16px;
+}
+
+/* Bandeau de sélection des couleurs */
+
+#color-selection {
+  background: rgb(85, 68, 146);
+  width: 50px;
+  height: 80vh;
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.black {
+  background-color: black;
+}
+
+.color {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.color--current {
+  height: 30px;
+  width: 30px;
+}
+
+.color--dark {
+  background-color: rgb(24, 24, 24);
+}
+
+.color--gray {
+  background-color: rgb(196, 196, 196);
+}
+
+.color--white {
+  background-color: rgb(255, 255, 255);
+}
+
+.color--red {
+  background-color: rgb(253, 0, 0);
+}
+
+.color--blue {
+  background-color: rgb(0, 110, 253);
+}
+
+.color--green {
+  background-color: rgb(111, 255, 45);
+}
+
+.color--tree {
+  background-color: rgb(6, 78, 15);
+}
+
+.color--yellow {
+  background-color: rgb(255, 230, 0);
+}
+
+.color--purple {
+  background-color:  rgb(174, 0, 255);
+}
+
+.color--orange {
+  background-color:  rgb(255, 137, 2);
+}
+
+.color--pink {
+  background-color:  rgb(255, 2, 255);
+}
+
+.color--flesh {
+  background-color:  rgb(240, 212, 207);
+}
+
+.color--brown {
+  background-color:  rgb(90, 51, 7);
+}
+
+.color--sky {
+  background-color:  rgb(2, 225, 255);
+}
+
+/* pixels */
+
+.pixel {
+  background-color: rgb(196, 196, 196);
+}
+
+.pixel--dark {
+  background-color: rgb(24, 24, 24);
+}
+
+.pixel--gray {
+  background-color: rgb(196, 196, 196);
+}
+
+.pixel--white {
+  background-color: rgb(255, 255, 255);
+}
+
+.pixel--red {
+  background-color: rgb(253, 0, 0);
+}
+
+.pixel--blue {
+  background-color: rgb(0, 110, 253);
+}
+
+.pixel--green {
+  background-color: rgb(111, 255, 45);
+}
+
+.pixel--tree {
+  background-color: rgb(6, 78, 15);
+}
+
+.pixel--yellow {
+  background-color: rgb(255, 230, 0);
+}
+
+.pixel--purple {
+  background-color:  rgb(174, 0, 255);
+}
+
+.pixel--orange {
+  background-color:  rgb(255, 137, 2);
+}
+
+.pixel--pink {
+  background-color:  rgb(255, 2, 255);
+}
+
+.pixel--flesh {
+  background-color:  rgb(240, 212, 207);
+}
+
+.pixel--brown {
+  background-color:  rgb(90, 51, 7);
+}
+
+.pixel--sky {
+  background-color:  rgb(2, 225, 255);
+}
