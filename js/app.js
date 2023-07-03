@@ -7,19 +7,26 @@ const app = {
    */
   styles: [ 
     'dark',
+    'carbon',
     'gray',
     'white',
+    'flesh',
+    'pink',
+    'magenta',
     'red',
-    'blue',
-    'yellow',
+    'wine',
+    'lila',
     'purple',
+    'marine',
+    'blue',
+    'sky',
+    'yellow',
+    'orange',
+    'brown',
+    'apple',
     'green',
     'tree',
-    'orange',
-    'pink',
-    'flesh',
-    'brown',
-    'sky',
+
   ],
 
   currentColor: 'dark',
@@ -66,7 +73,7 @@ const app = {
     inputGrid.value = '';
     inputGrid.title = 'Largeur de la grille (nombre de carrés)';
     inputGrid.placeholder = 'Taille de la grille';
-    const formContainer = document.querySelector('.configuration');
+    const formContainer = document.querySelector('.input-container');
     formContainer.append(inputGrid);
 
     inputGrid.addEventListener('change', function (event) {
@@ -84,8 +91,8 @@ const app = {
     inputPixel.type = 'number';
     inputPixel.value = '';
     inputPixel.title = 'Largeur du pixel (taille en px)';
-    inputPixel.placeholder = 'Taille des pixels';
-    const formContainer2 = document.querySelector('.configuration');
+    inputPixel.placeholder = 'Taille du pixel';
+    const formContainer2 = document.querySelector('.input-container');
     formContainer2.append(inputPixel);
 
     inputPixel.addEventListener('change', function (event) {
@@ -102,7 +109,7 @@ const app = {
     validationButton.className = 'validation-button';
     validationButton.type = 'submit';
     validationButton.textContent = 'Nouvelle grille';
-    const formContainer3 = document.querySelector('.configuration');
+    const formContainer3 = document.querySelector('.button-container');
     formContainer3.append(validationButton);
 
     validationButton.addEventListener('click', function(event) {
@@ -154,7 +161,6 @@ const app = {
     app.inputPixel();
     app.validationButton(); 
     app.createPixelGrid();
-    app.reset();
   }
 };
 

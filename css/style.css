@@ -1,19 +1,28 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Bandeau de sélection de la grille */
 
 .configuration {
-  background-color: rgb(71, 86, 168);
-  height: 20vh;
+  background-color: rgb(184, 140, 255);
+  height: 10vh;
+  width: 100%;
 }
 
 form {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#pix-logo {
+  position: fixed;
+  left: 50px;
+  height: 10%;
 }
 
 input {
@@ -26,7 +35,7 @@ input {
 
 button {
   border: none;
-  background-color: rgb(187, 130, 240);
+  background-color: rgb(171, 30, 253);
   color: white;
   height: 47px;
   width: 150px;
@@ -37,8 +46,8 @@ button {
 /* Zone de jeu */
 
 .grid-container {
-  background-color: rgb(120, 93, 219);
-  height: 80vh;
+  background-color: rgb(92, 62, 199);
+  height: 90vh;
   display: flex;
   justify-content: center;
 }
@@ -72,16 +81,16 @@ input, button {
 /* Bandeau de sélection des couleurs */
 
 #color-selection {
-  background: rgb(85, 68, 146);
+  background: rgb(110, 84, 207);
   width: 50px;
-  height: 80vh;
+  height: 90vh;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .black {
@@ -93,6 +102,7 @@ input, button {
   height: 30px;
   width: 30px;
   cursor: pointer;
+  margin: 5px;
 }
 
 .color--current {
@@ -102,6 +112,10 @@ input, button {
 
 .color--dark {
   background-color: rgb(24, 24, 24);
+}
+
+.color--carbon {
+  background-color: rgb(68, 68, 68);
 }
 
 .color--gray {
@@ -116,16 +130,32 @@ input, button {
   background-color: rgb(253, 0, 0);
 }
 
+.color--wine {
+  background-color: rgb(145, 4, 4);
+}
+
+.color--lila {
+  background-color: rgb(194, 122, 253);
+}
+
+.color--marine {
+  background-color: rgb(20, 18, 158);
+}
+
 .color--blue {
   background-color: rgb(0, 110, 253);
 }
 
+.color--apple {
+  background-color: rgb(184, 255, 70);
+}
+
 .color--green {
-  background-color: rgb(111, 255, 45);
+  background-color: rgb(56, 187, 52);
 }
 
 .color--tree {
-  background-color: rgb(6, 78, 15);
+  background-color: rgb(4, 54, 11);
 }
 
 .color--yellow {
@@ -133,15 +163,19 @@ input, button {
 }
 
 .color--purple {
-  background-color:  rgb(174, 0, 255);
+  background-color:  rgb(135, 34, 218);
 }
 
 .color--orange {
   background-color:  rgb(255, 137, 2);
 }
 
+.color--magenta {
+  background-color:  rgb(234, 2, 255);
+}
+
 .color--pink {
-  background-color:  rgb(255, 2, 255);
+  background-color:  rgb(253, 123, 253);
 }
 
 .color--flesh {
@@ -166,6 +200,10 @@ input, button {
   background-color: rgb(24, 24, 24);
 }
 
+.pixel--carbon {
+  background-color: rgb(68, 68, 68);
+}
+
 .pixel--gray {
   background-color: rgb(196, 196, 196);
 }
@@ -178,16 +216,32 @@ input, button {
   background-color: rgb(253, 0, 0);
 }
 
+.pixel--wine {
+  background-color: rgb(145, 4, 4);
+}
+
+.color--lila {
+  background-color: rgb(194, 122, 253);
+}
+
+.pixel--marine {
+  background-color: rgb(20, 18, 158);
+}
+
 .pixel--blue {
   background-color: rgb(0, 110, 253);
 }
 
+.pixel--apple {
+  background-color: rgb(184, 255, 70);
+}
+
 .pixel--green {
-  background-color: rgb(111, 255, 45);
+  background-color: rgb(56, 187, 52);
 }
 
 .pixel--tree {
-  background-color: rgb(6, 78, 15);
+  background-color: rgb(4, 54, 11);
 }
 
 .pixel--yellow {
@@ -195,7 +249,7 @@ input, button {
 }
 
 .pixel--purple {
-  background-color:  rgb(174, 0, 255);
+  background-color:  rgb(135, 34, 218);
 }
 
 .pixel--orange {
@@ -203,7 +257,11 @@ input, button {
 }
 
 .pixel--pink {
-  background-color:  rgb(255, 2, 255);
+  background-color:  rgb(253, 123, 253);
+}
+
+.pixel--magenta {
+  background-color:  rgb(234, 2, 255);
 }
 
 .pixel--flesh {
@@ -216,4 +274,103 @@ input, button {
 
 .pixel--sky {
   background-color:  rgb(2, 225, 255);
+}
+
+
+/* Mobile version */
+
+@media screen and (max-width: 450px) {
+
+  #grid {
+    border-radius: 0;
+  }
+
+  #color-selection {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .color {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+  }
+
+  form {
+    flex-direction: column;
+  }
+  
+  #pix-logo {
+    position: fixed;
+    left: 10px;
+    height: 8%;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input {
+    border: none;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    border: none;
+    background-color: rgb(171, 30, 253);
+    color: white;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+
+
+/* Tablet version */
+
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+
+  #color-selection {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid rgb(110, 84, 207);
+  }
+
+  .color {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+  }
+  
+  #pix-logo {
+    position: fixed;
+    left: 10px;
+    height: 8%;
+  }
+
+  .grid-container {
+    height: 80vh;
+  }
 }
