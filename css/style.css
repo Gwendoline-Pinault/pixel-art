@@ -97,6 +97,10 @@ input, button {
   background-color: black;
 }
 
+.pixel {
+  background-color: rgb(255, 255, 255);
+}
+
 .color {
   border-radius: 50%;
   height: 30px;
@@ -110,171 +114,86 @@ input, button {
   width: 30px;
 }
 
-.color--dark {
+.color--dark, .pixel--dark {
   background-color: rgb(24, 24, 24);
 }
 
-.color--carbon {
+.color--carbon, .pixel--carbon {
   background-color: rgb(68, 68, 68);
 }
 
-.color--gray {
+.color--gray, .pixel--gray {
   background-color: rgb(196, 196, 196);
 }
 
-.color--white {
+.color--white, .pixel--white {
   background-color: rgb(255, 255, 255);
 }
 
-.color--red {
+.color--red, .pixel--red {
   background-color: rgb(253, 0, 0);
 }
 
-.color--wine {
+.color--wine, .pixel--wine {
   background-color: rgb(145, 4, 4);
 }
 
-.color--lila {
+.color--lila, .pixel--lila {
   background-color: rgb(194, 122, 253);
 }
 
-.color--marine {
+.color--marine, .pixel--marine {
   background-color: rgb(20, 18, 158);
 }
 
-.color--blue {
+.color--blue, .pixel--blue {
   background-color: rgb(0, 110, 253);
 }
 
-.color--apple {
+.color--apple, .pixel--apple {
   background-color: rgb(184, 255, 70);
 }
 
-.color--green {
+.color--green, .pixel--green {
   background-color: rgb(56, 187, 52);
 }
 
-.color--tree {
+.color--tree, .pixel--tree {
   background-color: rgb(4, 54, 11);
 }
 
-.color--yellow {
+.color--yellow, .pixel--yellow {
   background-color: rgb(255, 230, 0);
 }
 
-.color--purple {
+.color--purple, .pixel--puple {
   background-color:  rgb(135, 34, 218);
 }
 
-.color--orange {
+.color--orange, .pixel--orange {
   background-color:  rgb(255, 137, 2);
 }
 
-.color--magenta {
+.color--magenta, .pixel--magenta {
   background-color:  rgb(234, 2, 255);
 }
 
-.color--pink {
+.color--pink, .pixel--pink {
   background-color:  rgb(253, 123, 253);
 }
 
-.color--flesh {
+.color--flesh, .pixel--flesh {
   background-color:  rgb(240, 212, 207);
 }
 
-.color--brown {
+.color--brown, .pixel--brown {
   background-color:  rgb(90, 51, 7);
 }
 
-.color--sky {
+.color--sky, .pixel--sky {
   background-color:  rgb(2, 225, 255);
 }
 
-/* pixels */
-
-.pixel {
-  background-color: rgb(196, 196, 196);
-}
-
-.pixel--dark {
-  background-color: rgb(24, 24, 24);
-}
-
-.pixel--carbon {
-  background-color: rgb(68, 68, 68);
-}
-
-.pixel--gray {
-  background-color: rgb(196, 196, 196);
-}
-
-.pixel--white {
-  background-color: rgb(255, 255, 255);
-}
-
-.pixel--red {
-  background-color: rgb(253, 0, 0);
-}
-
-.pixel--wine {
-  background-color: rgb(145, 4, 4);
-}
-
-.color--lila {
-  background-color: rgb(194, 122, 253);
-}
-
-.pixel--marine {
-  background-color: rgb(20, 18, 158);
-}
-
-.pixel--blue {
-  background-color: rgb(0, 110, 253);
-}
-
-.pixel--apple {
-  background-color: rgb(184, 255, 70);
-}
-
-.pixel--green {
-  background-color: rgb(56, 187, 52);
-}
-
-.pixel--tree {
-  background-color: rgb(4, 54, 11);
-}
-
-.pixel--yellow {
-  background-color: rgb(255, 230, 0);
-}
-
-.pixel--purple {
-  background-color:  rgb(135, 34, 218);
-}
-
-.pixel--orange {
-  background-color:  rgb(255, 137, 2);
-}
-
-.pixel--pink {
-  background-color:  rgb(253, 123, 253);
-}
-
-.pixel--magenta {
-  background-color:  rgb(234, 2, 255);
-}
-
-.pixel--flesh {
-  background-color:  rgb(240, 212, 207);
-}
-
-.pixel--brown {
-  background-color:  rgb(90, 51, 7);
-}
-
-.pixel--sky {
-  background-color:  rgb(2, 225, 255);
-}
 
 
 /* Mobile version */
