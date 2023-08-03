@@ -1,14 +1,13 @@
 # Pix, l'interface de pixel-art
 Petite interface pour faire du pixel art, réalisée à partir d'un exercice scolaire.
 
-### Rendus visuels
+## Rendus visuels
 
-Version ordinateur
+### Version ordinateur
 ![image](https://github.com/Gwendoline-Pinault/pixel-art/assets/129307228/688ec9c5-9b80-468e-87f2-814e4328b062)
 
-version mobile
+### Version mobile
 ![image](https://github.com/Gwendoline-Pinault/pixel-art/assets/129307228/1aa47d26-3d78-415e-b6cf-c95a4f05d1b9)
-
 
 ## Contexte
 Dans le cadre d'un exercice en pair-programming, nous devions réaliser une interface qui générait une grille en fonction d'une saisie de l'utilisateur.
