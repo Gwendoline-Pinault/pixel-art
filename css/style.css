@@ -5,7 +5,7 @@ body {
   width: 100vw;
 }
 
-/* Bandeau de sélection de la grille */
+/* Grid selection choices */
 
 .configuration {
   background-color: rgb(184, 140, 255);
@@ -43,7 +43,7 @@ button {
   font-weight: bold;
 }
 
-/* Zone de jeu */
+/* Game zone - Pixel grid */
 
 .grid-container {
   background-color: rgb(92, 62, 199);
@@ -78,7 +78,7 @@ input, button {
   font-size: 16px;
 }
 
-/* Bandeau de sélection des couleurs */
+/* Colors selection container */
 
 #color-selection {
   background: rgb(110, 84, 207);

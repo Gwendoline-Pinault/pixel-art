@@ -2,9 +2,7 @@ const app = {
   inputGridValue: 20,
   inputPixelValue: 15,
 
-  /**
-   * Color choices
-   */
+  /* Color choices */
   styles: [ 
     'dark',
     'carbon',
@@ -31,9 +29,7 @@ const app = {
 
   currentColor: 'dark',
   
-  /**
-   * 'colorSelection' : Create the selection of colors part
-   */
+  /* 'colorSelection' : Create the selection of colors part */
 
   colorSelection: function(){
     const colorDiv = document.createElement('div');
@@ -62,9 +58,7 @@ const app = {
     app.currentColor = clickedColor.dataset.style;
   },
 
-  /**
-   * 'inputGrid' : Create the input for the choice of grid width
-   */
+  /* 'inputGrid' : Create the input for the choice of grid width */
   inputGrid: function(){
     const inputGrid = document.createElement('input');
     inputGrid.className = 'input';
@@ -81,9 +75,7 @@ const app = {
     });
   },
 
-/**
- * 'inputPixel' : Create the input for the choice of pixel width
- */
+/* 'inputPixel' : Create the input for the choice of pixel width */
   inputPixel: function(){
     const inputPixel = document.createElement('input');
     inputPixel.className = 'input';
@@ -101,9 +93,7 @@ const app = {
     });
   },
 
-  /**
-   * 'validationButton' : Create the input for the validation button
-   */
+  /* 'validationButton' : Create the input for the validation button */
   validationButton: function(){
     const validationButton = document.createElement('button');
     validationButton.className = 'validation-button';
@@ -122,9 +112,7 @@ const app = {
     document.getElementById('pixel-art').innerHTML = '';
   },
 
-  /**
-   * 'createPixelGrid' : create a wanted size game grid
-   */
+  /* 'createPixelGrid' : create a wanted size game grid */
   createPixelGrid: function(){
     app.reset();
     for (let line = 0; line <  app.inputGridValue; line++) {
