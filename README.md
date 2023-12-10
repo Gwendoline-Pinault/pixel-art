@@ -22,4 +22,4 @@ J'ai ajouté une palette de couleur plus large que ce qui était convenu dans l'
 
 J'ai ajouté un logo que j'ai créé pour l'ajouter à la favicon et dans l'en-tête du site.
 
-J'ai également rendu la page dynamique afin de pouvoir utiliser le site sur ordinateur et mobile.
+J'ai également rendu la page responsive afin de pouvoir utiliser le site sur ordinateur et mobile.
